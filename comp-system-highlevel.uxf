@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>480</x>
+      <y>320</y>
+      <w>670</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>'    Náš systém</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>290</x>
+      <y>340</y>
+      <w>210</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-(()-[]&gt;
+ 
+ 
+externé zdroje dát
+</panel_attributes>
+    <additional_attributes>30;50;190;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1260</x>
+      <y>500</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes> 
+'
+ Burzy s el. energiou</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1260</x>
+      <y>370</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes> 
+'
+ Distribučné spoločnosti</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>70</x>
+      <y>270</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+ Meteorologické predpovede</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>70</x>
+      <y>360</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+ Historické udaje o spotrebe</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>70</x>
+      <y>440</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes> 
+'Sviatky</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>250</x>
+      <y>270</y>
+      <w>90</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;
+</panel_attributes>
+    <additional_attributes>70;120;70;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>250</x>
+      <y>360</y>
+      <w>90</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;</panel_attributes>
+    <additional_attributes>70;30;70;110;30;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>250</x>
+      <y>360</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;</panel_attributes>
+    <additional_attributes>70;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>950</x>
+      <y>170</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes> 
+'Finančné
+ inštitúcie</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>800</x>
+      <y>170</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes> 
+'Elektrická
+ sieť</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>540</x>
+      <y>380</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes> 
+'Predikčníci</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>360</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;90;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>800</x>
+      <y>380</y>
+      <w>190</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes> 
+'Traderi</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>540</x>
+      <y>510</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'Správcovia
+ spotrebičov</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>70</x>
+      <y>520</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes> 
+'Regulačné úrady</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>290</x>
+      <y>490</y>
+      <w>210</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-(()-[]&gt;
+ 
+ 
+zmluvy a pokuty
+</panel_attributes>
+    <additional_attributes>30;50;190;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>250</x>
+      <y>510</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;</panel_attributes>
+    <additional_attributes>70;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>290</x>
+      <y>510</y>
+      <w>50</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;</panel_attributes>
+    <additional_attributes>30;30;30;120;30;200</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>290</x>
+      <y>710</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes> 
+'Externé firmy</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>540</x>
+      <y>710</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes> 
+'Spotrebiče</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>420</x>
+      <y>700</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+</panel_attributes>
+    <additional_attributes>120;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>790</x>
+      <y>220</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[]-(()-[]&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>940</x>
+      <y>220</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[]-(()-[]&gt;</panel_attributes>
+    <additional_attributes>30;30;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>780</x>
+      <y>560</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Žiadosť o
+zmenu plánu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>840</x>
+      <y>260</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Aktuálna
+spotreba
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>790</x>
+      <y>300</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>940</x>
+      <y>300</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>450</x>
+      <y>740</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Vlastnia a
+prevádzkujú</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>480</x>
+      <y>360</y>
+      <w>80</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;160;60;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>510</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;90;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>470</x>
+      <y>380</y>
+      <w>90</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;160;30;30;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>670</x>
+      <y>340</y>
+      <w>150</w>
+      <h>122</h>
+    </coordinates>
+    <panel_attributes>lt=-(()-
+ 
+ 
+ Predpoveď
+ spotreby</panel_attributes>
+    <additional_attributes>30;50;130;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>650</x>
+      <y>430</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-(()-</panel_attributes>
+    <additional_attributes>30;80;30;30;150;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>990</x>
+      <y>260</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Kurzy</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>670</x>
+      <y>440</y>
+      <w>190</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-(()-</panel_attributes>
+    <additional_attributes>170;30;170;120;30;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>680</x>
+      <y>470</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Plán obsluhy
+spotrebičov</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>530</x>
+      <y>610</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[]-(()-[]&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>530</x>
+      <y>550</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>560</x>
+      <y>580</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Zapína a
+výpína</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1120</x>
+      <y>340</y>
+      <w>140</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-(()-[]&gt;
+ 
+ 
+ponuky
+</panel_attributes>
+    <additional_attributes>120;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1210</x>
+      <y>360</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;
+</panel_attributes>
+    <additional_attributes>30;30;50;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1210</x>
+      <y>360</y>
+      <w>70</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;160;50;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1120</x>
+      <y>530</y>
+      <w>138</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-())-[]&gt;
+ 
+ 
+  objednávky</panel_attributes>
+    <additional_attributes>110;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1200</x>
+      <y>550</y>
+      <w>80</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;
+</panel_attributes>
+    <additional_attributes>30;30;60;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1200</x>
+      <y>420</y>
+      <w>80</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-[]&gt;
+</panel_attributes>
+    <additional_attributes>30;160;30;30;60;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>360</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>180;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>410</y>
+      <w>200</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;100;30;100;170;180;170</additional_attributes>
+  </element>
+</diagram>
