@@ -1,5 +1,0 @@
-#!/bin/bash
-for file in *.uxf
-do
-    umlet -action=convert -format=png -filename=$file
-done
