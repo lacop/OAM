@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>170</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ZAMESTNANEC
+--
+id: String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>170</y>
+      <w>240</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>JEDNOTKA
+NA TVORBU SPRÁV
+--
+vytvoriťSprávu(prijemca: String,
+text: String, predmet: String): Sprava</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>180</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>390</y>
+      <w>230</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>HANDLER SPRÁV
+--
+odoslat(sprava: Sprava): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>240</y>
+      <w>30</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>440</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>390</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>ÚLOŽISKO SPRÁV
+--
+spravy: array
+--
+ulozSpravu(sprava: Sprava): boolean
+filter(prijemca: String, odosielatel: String): array
+mojeSpravy(id: String): array</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>240</y>
+      <w>300</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;80.0;280.0;80.0;280.0;10.0</additional_attributes>
+  </element>
+</diagram>
