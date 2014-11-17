@@ -54,10 +54,10 @@ vyžiada
       <x>370</x>
       <y>20</y>
       <w>30</w>
-      <h>560</h>
+      <h>620</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;540.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;600.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
@@ -146,10 +146,10 @@ zoznam
       <x>720</x>
       <y>10</y>
       <w>30</w>
-      <h>570</h>
+      <h>620</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;550.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;600.0</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -311,12 +311,12 @@ bg=white
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>400</y>
-      <w>60</w>
-      <h>60</h>
+      <x>540</x>
+      <y>380</y>
+      <w>50</w>
+      <h>110</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;40.0;40.0;10.0</additional_attributes>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;90.0</additional_attributes>
   </element>
 </diagram>
