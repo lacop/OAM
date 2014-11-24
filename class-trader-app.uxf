@@ -299,7 +299,7 @@ bg=gray</panel_attributes>
     <panel_attributes>_Downloader_
 _Traderských Dát_
 --
-získajCenyNaBurze(krajina:enum): data</panel_attributes>
+načítajCenyNaBurze(krajina:enum): data</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
