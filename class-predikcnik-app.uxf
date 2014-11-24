@@ -50,7 +50,7 @@ logout()</panel_attributes>
       <w>200</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>_Button Plan &amp; Agreement_
+    <panel_attributes>_Predikčnícky_
 _Communication Tool_
 --
 nacitajZoznamTlacitok()
@@ -70,7 +70,7 @@ nahrajPlan(tlacitko)
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-Viewer Zmlúv</panel_attributes>
+Editor Predikcií</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -83,7 +83,7 @@ Viewer Zmlúv</panel_attributes>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-Zmluva pre tlačítko</panel_attributes>
+Predickia</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -173,10 +173,10 @@ m2=1</panel_attributes>
     <coordinates>
       <x>100</x>
       <y>60</y>
-      <w>140</w>
+      <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Button managerská
+    <panel_attributes>Predičnícka
 aplikácia</panel_attributes>
     <additional_attributes/>
   </element>
@@ -208,25 +208,26 @@ aplikácia</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>220</x>
-      <y>260</y>
+      <y>280</y>
       <w>130</w>
-      <h>360</h>
+      <h>460</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0;50.0;340.0;110.0;340.0</additional_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0;30.0;440.0;110.0;440.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>330</x>
-      <y>550</y>
+      <y>670</y>
       <w>150</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-Editor plánov
-Talčítok</panel_attributes>
+Viewer
+Meteorologických
+Dát</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -235,58 +236,124 @@ Talčítok</panel_attributes>
       <x>550</x>
       <y>360</y>
       <w>410</w>
-      <h>220</h>
+      <h>230</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>390.0;200.0;390.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>390.0;210.0;390.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>850</x>
-      <y>560</y>
+      <y>570</y>
       <w>150</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-Plán pre Tlačítko</panel_attributes>
+Štatistické dáta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>470</x>
-      <y>580</y>
-      <w>400</w>
-      <h>40</h>
+      <y>700</y>
+      <w>290</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=*
-m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;380.0;10.0</additional_attributes>
+m2=*</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;10.0;270.0;110.0</additional_attributes>
   </element>
   <element>
-    <id>UMLNote</id>
+    <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>390</y>
-      <w>140</w>
-      <h>70</h>
+      <x>190</x>
+      <y>320</y>
+      <w>170</w>
+      <h>530</h>
     </coordinates>
-    <panel_attributes>Pozor! Nemá prístup k ostatným druhom zmlúv
-bg=gray</panel_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;510.0;150.0;510.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>790</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Automatický
+Downloader
+Meteorologických Dát</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>810</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Meteorologické
+Dáta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>450</y>
-      <w>50</w>
+      <x>510</x>
+      <y>830</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>260</y>
+      <w>160</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;340.0;140.0;340.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>570</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Editor
+Štatistických Dát</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>590</y>
+      <w>390</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;20.0;30.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;370.0;10.0</additional_attributes>
   </element>
 </diagram>

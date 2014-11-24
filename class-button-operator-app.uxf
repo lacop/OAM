@@ -66,9 +66,11 @@ Downloader</panel_attributes>
     </coordinates>
     <panel_attributes>_Button Interface_
 --
-+state : bool
+-state : bool
 --
-push()</panel_attributes>
+getState()
+push()
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -170,14 +172,14 @@ Requires permissions from &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>480</x>
-      <y>450</y>
+      <y>460</y>
       <w>100</w>
-      <h>50</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=*
 m2=1</panel_attributes>
-    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -195,11 +197,11 @@ m2=1</panel_attributes>
     <coordinates>
       <x>100</x>
       <y>60</y>
-      <w>120</w>
+      <w>140</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Button operator
-application</panel_attributes>
+    <panel_attributes>Button operatorská
+aplikácia</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

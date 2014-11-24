@@ -455,23 +455,27 @@ halign=center
     <id>UMLClass</id>
     <coordinates>
       <x>1060</x>
-      <y>680</y>
+      <y>670</y>
       <w>100</w>
-      <h>30</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Burza</panel_attributes>
+    <panel_attributes>valign=center
+halign=center
+Ceny na Burze</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>1050</x>
-      <y>750</y>
-      <w>100</w>
-      <h>40</h>
+      <y>740</y>
+      <w>110</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>Distribučná
-spoločnosť</panel_attributes>
+    <panel_attributes>valign=center
+halign=center
+Ceny za Prenos
+Energie</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -493,10 +497,10 @@ bg=gray</panel_attributes>
       <x>1150</x>
       <y>630</y>
       <w>40</w>
-      <h>70</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;50.0;20.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -640,7 +644,7 @@ m2=*</panel_attributes>
       <h>70</h>
     </coordinates>
     <panel_attributes>Conrete 
-Downloader/Uploader</panel_attributes>
+Communication Tool</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
