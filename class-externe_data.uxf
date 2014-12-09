@@ -684,4 +684,15 @@ m2=0..1
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;50.0;10.0;50.0;90.0</additional_attributes>
   </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Externé dáta</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
