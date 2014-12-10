@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>120</y>
+      <w>260</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>_BCPB: Burza_
+--
+názov:String = "Burza cenných
+  papierov Bratislava"
+sídlo:String = "Vysoká 17"
+mena:String = "EUR"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>150</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+obchodujú</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>160</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_Energoprojekt: Firma_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>150</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_t1: Transakcia_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>140</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>sprostredkováva</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>290</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_: Kurz_
+--
+mena1:String = "EUR"
+mena2:String = "USD"
+kurz:Double = 1.2342</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>210</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_E.ON Elektrárne: Firma_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>260</y>
+      <w>240</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_Slovenské elektrárne: Firma_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>160</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>190</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_t2: Transakcia_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>150</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>160</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>230</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>aktuálne kurzy</panel_attributes>
+    <additional_attributes>10.0;100.0;60.0;100.0;60.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>390</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_: Kurz_
+--
+mena1:String = "EUR"
+mena2:String = "CZK"
+kurz:Double = 27.618</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>230</y>
+      <w>150</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;210.0;60.0;210.0;60.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+</diagram>
