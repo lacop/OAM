@@ -4,7 +4,7 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>120</y>
       <w>20</w>
       <h>20</h>
@@ -15,7 +15,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>120</y>
       <w>30</w>
       <h>80</h>
@@ -26,7 +26,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>180</x>
+      <x>160</x>
       <y>270</y>
       <w>100</w>
       <h>50</h>
@@ -41,7 +41,7 @@ dát
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>180</x>
+      <x>160</x>
       <y>30</y>
       <w>100</w>
       <h>100</h>
@@ -52,18 +52,7 @@ dát
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>30</x>
-      <y>0</y>
-      <w>30</w>
-      <h>690</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;670.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>310</y>
       <w>30</w>
       <h>70</h>
@@ -74,7 +63,7 @@ dát
   <element>
     <id>UMLTimer</id>
     <coordinates>
-      <x>760</x>
+      <x>740</x>
       <y>160</y>
       <w>120</w>
       <h>70</h>
@@ -86,18 +75,18 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
+      <x>730</x>
       <y>190</y>
       <w>90</w>
-      <h>290</h>
+      <h>270</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;270.0;10.0;230.0;70.0;230.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;250.0;10.0;230.0;70.0;230.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>220</x>
       <y>360</y>
       <w>170</w>
       <h>40</h>
@@ -109,18 +98,18 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
+      <x>560</x>
       <y>0</y>
       <w>30</w>
-      <h>690</h>
+      <h>990</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;670.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;970.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
+      <x>660</x>
       <y>40</y>
       <w>120</w>
       <h>40</h>
@@ -132,7 +121,7 @@ Systém</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>210</x>
+      <x>190</x>
       <y>360</y>
       <w>40</w>
       <h>40</h>
@@ -143,8 +132,8 @@ Systém</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>460</y>
+      <x>660</x>
+      <y>440</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -157,8 +146,8 @@ dáta
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>180</x>
-      <y>590</y>
+      <x>160</x>
+      <y>860</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -171,7 +160,7 @@ dáta
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>210</x>
+      <x>190</x>
       <y>440</y>
       <w>40</w>
       <h>40</h>
@@ -182,7 +171,7 @@ dáta
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>390</y>
       <w>30</w>
       <h>70</h>
@@ -193,7 +182,7 @@ dáta
   <element>
     <id>Text</id>
     <coordinates>
-      <x>230</x>
+      <x>210</x>
       <y>400</y>
       <w>140</w>
       <h>30</h>
@@ -204,7 +193,7 @@ dáta
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>390</x>
+      <x>370</x>
       <y>360</y>
       <w>170</w>
       <h>40</h>
@@ -217,7 +206,7 @@ type=sender</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>630</x>
+      <x>610</x>
       <y>360</y>
       <w>150</w>
       <h>40</h>
@@ -230,18 +219,18 @@ type=receiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
+      <x>680</x>
       <y>390</y>
       <w>30</w>
-      <h>90</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>210</x>
+      <x>190</x>
       <y>180</y>
       <w>40</w>
       <h>40</h>
@@ -252,7 +241,7 @@ type=receiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>210</y>
       <w>30</w>
       <h>80</h>
@@ -263,7 +252,7 @@ type=receiver</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>230</x>
+      <x>210</x>
       <y>220</y>
       <w>160</w>
       <h>40</h>
@@ -275,7 +264,7 @@ skontrolovanie dát]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>220</x>
       <y>450</y>
       <w>180</w>
       <h>30</h>
@@ -286,19 +275,19 @@ skontrolovanie dát]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
+      <x>60</x>
       <y>190</y>
       <w>150</w>
-      <h>370</h>
+      <h>640</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>130.0;350.0;10.0;350.0;10.0;10.0;130.0;10.0</additional_attributes>
+    <additional_attributes>130.0;620.0;10.0;620.0;10.0;10.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>210</x>
-      <y>520</y>
+      <x>190</x>
+      <y>790</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -308,7 +297,7 @@ skontrolovanie dát]</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>50</x>
+      <x>30</x>
       <y>160</y>
       <w>160</w>
       <h>40</h>
@@ -320,8 +309,8 @@ skontrolovanie dát]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>550</y>
+      <x>200</x>
+      <y>820</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -331,7 +320,7 @@ skontrolovanie dát]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>470</y>
       <w>30</w>
       <h>70</h>
@@ -342,7 +331,7 @@ skontrolovanie dát]</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>400</x>
+      <x>380</x>
       <y>440</y>
       <w>100</w>
       <h>50</h>
@@ -356,7 +345,7 @@ počkaj
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>420</x>
       <y>390</y>
       <w>30</w>
       <h>70</h>
@@ -367,8 +356,8 @@ počkaj
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>220</x>
-      <y>680</y>
+      <x>200</x>
+      <y>940</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -378,12 +367,143 @@ počkaj
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
+      <y>900</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>190</x>
       <y>630</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>190</x>
+      <y>710</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>660</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>740</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>640</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>210.0;30.0;210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>160</x>
+      <y>520</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+(ručne)
+skontroluj
+správnosť
+dát
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>580</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>380</x>
+      <y>670</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>
+ručne
+oprav
+dáta
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>240</x>
+      <y>630</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[dáta sú chybné]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>710</y>
+      <w>230</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>210</x>
+      <y>670</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[dáta sú správne]</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

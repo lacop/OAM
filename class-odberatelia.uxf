@@ -10,9 +10,9 @@
       <h>90</h>
     </coordinates>
     <panel_attributes>ODBERATELIA 
-EL. ENRGIE
+EL. ENERGIE
 --
-id
+id: String
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -33,22 +33,11 @@ DO ZAHRANIČIA</panel_attributes>
     <coordinates>
       <x>270</x>
       <y>160</y>
-      <w>220</w>
+      <w>210</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0;200.0;80.0;200.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1360</x>
-      <y>120</y>
-      <w>180</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;20.0;70.0;10.0;110.0;20.0;160.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;190.0;80.0;190.0;150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -97,17 +86,17 @@ DO ZAHRANIČIA</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
+      <x>610</x>
       <y>80</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>ZMLUVNÝ ZÁVÄZOK
 --
-id
-max_mesacny_odber
-min_mesacny_odber
-cena_kWh
+id: String
+max_mesacny_odber: Integer
+min_mesacny_odber: Integer
+cena_kWh: Float
 
 </panel_attributes>
     <additional_attributes/>
@@ -117,46 +106,49 @@ cena_kWh
     <coordinates>
       <x>370</x>
       <y>70</y>
-      <w>320</w>
+      <w>260</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>220</y>
+      <x>600</x>
+      <y>240</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>MERAČ 
 AKTUÁLNEHO ODBERU
 --
-timestamp
-aktualny_odber</panel_attributes>
+timestamp: String
+aktualny_odber: Integer</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
+      <x>600</x>
       <y>380</y>
-      <w>210</w>
-      <h>160</h>
+      <w>250</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>MERNÁ A ZÚČTOVACIA
 JEDNOTKA
 --
-id
-historia_platieb
-historia_odberu
-tohtomesacny_odber_celkom
-cena_energie_tento_mesiac
+id: String
+historia_platieb: array of Platba
+historia_odberu: array of Odber
+tohtomesacny_odber_celkom: Float
+cena_energie_tento_mesiac: Float
+--
+pridatPlatbu(platba: Platba): boolean
+pridatOdber(odber: Odber): boolean
 
 </panel_attributes>
     <additional_attributes/>
@@ -166,27 +158,80 @@ cena_energie_tento_mesiac
     <coordinates>
       <x>370</x>
       <y>100</y>
-      <w>320</w>
+      <w>250</w>
       <h>340</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>10.0;10.0;210.0;10.0;210.0;310.0;300.0;310.0</additional_attributes>
+    <additional_attributes>10.0;10.0;190.0;10.0;190.0;310.0;230.0;310.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>230</y>
-      <w>90</w>
-      <h>210</h>
+      <x>800</x>
+      <y>250</y>
+      <w>110</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1..n
 </panel_attributes>
-    <additional_attributes>10.0;180.0;70.0;180.0;70.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>50.0;150.0;90.0;150.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>460</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>PLATBA
+--
+id: String
+suma: Float
+datum: Date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>900</x>
+      <y>460</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Každý odberateľ má mernú jednotku, ktorá robí záznamy o jeho spotrebe a platbách za energiu
+bg=gray
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>400</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>460</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>ODBER
+--
+timestamp: String
+odber: Integer</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
